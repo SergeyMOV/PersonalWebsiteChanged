@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: wheat;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#t1 {
+  height: 2300px;
+}
+.Name {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0;
+}
+.maintitle {
+  height: 92px;
+  background-color: cornflowerblue;
+}
+
+.bild > img {
+  width: 190px;
+  height: 250px;
+  margin-top: 20px;
+  border-radius: 40%;
+}
+.Main {
+  width: 65%;
+  height: 100%;
+  background-color: wheat;
+}
+.bild {
+  width: 65%;
+  height: auto;
+}
+.maintitle > a {
+  text-decoration: none;
+  font-size: 25px;
+  transition-duration: 1s;
+  scroll-behavior: smooth;
+}
+.maintitle > a:hover {
+  color: white;
+  border-color: red;
+  border-bottom: 1px solid;
+  transition: 1s;
+  font-size: 30px;
+  background-color: goldenrod;
+}
+.maintitle > a:visited {
+  color: goldenrod;
+}
+.maintitle > a:visited:hover {
+  color: white;
+  transition: 1s;
+}
+.txt1 {
+  padding-left: 17px;
+}
+.txt2 {
+  padding-left: 50px;
+}
+.txt3 {
+  padding-left: 20px;
+}
+.txt4 {
+  padding-left: 30px;
+}
+.txt1,
+.txt2,
+.txt3,
+.txt4 {
+  color: brown;
+}
+.Photos {
+  width: 614px;
+}
+.Photos > a > img {
+  width: 170px;
+  height: 170px;
+
+  transition-duration: 2s;
+  border: 1px solid;
+  border-color: wheat;
+}
+.Photos > a > img:hover {
+  opacity: 0.5;
+  transition: 1s;
+  border: 5px solid;
+  border-color: crimson;
+}
+#lnk1:hover {
+  border-radius: 20px;
+}
+#Info {
+  width: 507px;
+  margin-top: 30px;
+  border: 10px solid;
+  border-color: brown;
+}
+#Info > p {
+  font-size: 18px;
+}
+#cv {
+  margin-top: 150px;
+  border: 10px solid;
+  width: 517px;
+}
+footer {
+  background-color: cornflowerblue;
+  height: 100px;
+}
