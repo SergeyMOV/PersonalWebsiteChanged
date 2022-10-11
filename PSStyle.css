@@ -39,6 +39,7 @@ html {
   font-size: 25px;
   transition-duration: 1s;
   scroll-behavior: smooth;
+  color: goldenrod;
 }
 .maintitle > a:hover {
   color: white;
@@ -46,7 +47,7 @@ html {
   border-bottom: 1px solid;
   transition: 1s;
   font-size: 30px;
-  background-color: goldenrod;
+  box-shadow: 4px 4px 4px 4px;
 }
 .maintitle > a:visited {
   color: goldenrod;
