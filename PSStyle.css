@@ -1,22 +1,56 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: wheat;
 }
 html {
   scroll-behavior: smooth;
 }
 
 #t1 {
-  height: 2300px;
+  height: 2350px;
+  width: 100%;
+  background-color: wheat;
 }
 .Name {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin: 0;
 }
-.maintitle {
-  height: 92px;
+.Darkmode__Link,
+.Darkmode__Back {
+  float: right;
+  color: black;
+  border: 3px;
+  margin-left: 20px;
+  transition-duration: 1s;
+  width: 80px;
+  height: 30px;
+  background-color: silver;
+}
+.Darkmode__Back:hover {
+  background-color: coral;
+  color: antiquewhite;
+  border: 6px solid;
+  border-radius: 10px 10px 10px 10px;
+}
+.Darkmode__Link:hover {
+  transition: 2s;
+  background-color: #23395d;
+  color: white;
+  border: 6px solid silver;
+  border-radius: 10px 10px 10px 10px;
+}
+.header__title {
+  height: 86px;
   background-color: cornflowerblue;
+  position: sticky;
+  top: 0px;
+}
+.Personal__Data {
+  background-color: #1f456e;
+  border-radius: 81px 0px 0px 81px;
+}
+.Personal__Data > blockquote > h2 {
+  color: silver;
 }
 
 .bild > img {
@@ -25,23 +59,35 @@ html {
   margin-top: 20px;
   border-radius: 40%;
 }
+.Date {
+  padding-left: 11px;
+}
 .Main {
   width: 65%;
   height: 100%;
-  background-color: wheat;
+}
+.Main > section {
+  margin: 0;
+}
+#section {
+  margin: 0;
 }
 .bild {
-  width: 65%;
+  width: 55%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: auto;
+  background-color: slategray;
+  border-radius: 30px 30px;
 }
-.maintitle > a {
+.header__title > a {
   text-decoration: none;
   font-size: 25px;
   transition-duration: 1s;
   scroll-behavior: smooth;
   color: goldenrod;
 }
-.maintitle > a:hover {
+.header__title > a:hover {
   color: white;
   border-color: red;
   border-bottom: 1px solid;
@@ -49,10 +95,10 @@ html {
   font-size: 30px;
   box-shadow: 4px 4px 4px 4px;
 }
-.maintitle > a:visited {
+.header__title > a:visited {
   color: goldenrod;
 }
-.maintitle > a:visited:hover {
+.header__title > a:visited:hover {
   color: white;
   transition: 1s;
 }
@@ -68,14 +114,20 @@ html {
 .txt4 {
   padding-left: 30px;
 }
+.tx5 {
+  padding-left: 67px;
+}
 .txt1,
 .txt2,
 .txt3,
 .txt4 {
-  color: brown;
+  color: white;
 }
 .Photolinks {
   width: 614px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 10px;
 }
 .Photolinks > a > img {
   width: 170px;
@@ -99,14 +151,29 @@ html {
   margin-top: 30px;
   border: 10px solid;
   border-color: brown;
+  box-shadow: 4px 4px 4px 4px;
+  background-color: whitesmoke;
 }
+.cvtitle {
+  color: #1f456e;
+}
+.tx1 {
+  padding-left: 127px;
+}
+.tx3 {
+  padding-left: 127px;
+}
+
 #Info > p {
   font-size: 18px;
 }
 #cv {
   margin-top: 150px;
   border: 10px solid;
-  width: 517px;
+  border-color: #151e3d;
+  width: 509px;
+  background-color: #52b2bf;
+  box-shadow: 4px 4px 4px 4px #59788e;
 }
 footer {
   background-color: cornflowerblue;

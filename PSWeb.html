@@ -4,78 +4,103 @@
     <title>Personal Website</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="PSStyle.css" />
+    <script type="text/javascript" src="index1.js" defer></script>
   </head>
   <body>
-    <main>
-      <div id="t1">
-        <header class="maintitle">
-          <h1 class="Name">Sergey Movsesyan</h1>
-          <a href="#section">Contact</a>&nbsp;&nbsp;&nbsp;
-          <a href="#Info">Biography</a>&nbsp;&nbsp;&nbsp;
-          <a href="#cv">CV</a>
-        </header>
-        <section class="Main">
-          <section class="bild">
-            <img alt="ID-Photo" src="ID-Photo.png" />
-            <i><h2 class="PS">Personal Data</h2></i>
-            <p>Birthdate:<span class="txt1">23.09.1998</span></p>
-            <p>Age:<span class="txt2">24 Years</span></p>
-            <p>Location:<span class="txt3">Muenster,Germany</span></p>
-            <p>Degree:<span class="txt4">HVE</span></p>
-          </section>
-          <section class="Photolinks">
-            <a href="https://github.com/"
-              ><img alt="Github-logo" src="Github.png" id="lnk1"
-            /></a>
-            <a href="https://codepen.io/"
-              ><img alt="Codepen-Logo" src="code4.png"
-            /></a>
-            <a href="https://www.linkedin.com/"
-              ><img alt="Linkedin-logo" src="LNK.jpg"
-            /></a>
-          </section>
-          <section id="Info">
-            <i><h2>Biography</h2></i>
-            <hr />
-            <p>
-              I was born in Armenia, in a city Yerevan. I graduated from
-              secondary school there. Since childhood I was fascinated by
-              computers and found this field interesting. After finishing
-              secondary school it so happened that I moved to Germany. When I
-              came to Germany after a few integration courses i started to look
-              for an IT education and I found Webex Technologies Educational
-              Platform, where I learned the basics of Web programming (Html, Css
-              and Javascript).After this experience I was determined to become a
-              Professional Web Programmer.So i started an advanced
-              Web-Programming course at the Institute neue Fische to learn how
-              to do it professionally and to work in this field in the future.
-            </p>
-          </section>
-          <section id="cv">
-            <i><h2>CV</h2></i>
-            <hr />
-            <p>
-              Since 10/2022: Web-Development Advanced Course in Educational
-              Center Neue Fische
-            </p>
-            <p>
-              10/2021 - 09/2022: Web development Main knowledge training course
-              in Front-end development(Html,Css,Javascript) at WebEX
-              Technologies
-            </p>
-            <p>
-              08/2018 - 07/2021 Higher European Vocational Education as Retail
-              Management Assistant, in Muenster
-            </p>
+    <main data-js="t2" id="t1">
+      <header class="header__title">
+        <h1 class="Name">Sergey Movsesyan</h1>
+        <a href="#section">Contact</a>&nbsp;&nbsp;&nbsp;
+        <a data-js="info22" href="#Info">Biography</a>&nbsp;&nbsp;&nbsp;
+        <a href="#cv">CV</a>&nbsp;&nbsp;&nbsp;
+        <a id="skill" href="#cv">Skills</a>
+        <button class="Darkmode__Link">Darkmode</button>
+        <button class="Darkmode__Back">Lightmode</button>
+      </header>
+      <section class="Main">
+        <section class="bild">
+          <img alt="ID-Photo" src="ID-Photo.png" />
+          <section class="Personal__Data">
+            <blockquote>
+              <h2>Personal Data</h2>
+              <p>Birthdate:<span class="txt1">23.09.1998</span></p>
+              <p>Age:<span class="txt2">24 Years</span></p>
+              <p>Location:<span class="txt3">Muenster,Germany</span></p>
+              <p>Degree:<span class="txt4">HVE</span></p>
+            </blockquote>
           </section>
         </section>
-      </div>
+        <section class="Photolinks">
+          <a href="https://github.com/"
+            ><img alt="Github-logo" src="Github.png" id="lnk1"
+          /></a>
+          <a href="https://codepen.io/"
+            ><img alt="Codepen-Logo" src="code4.png"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img alt="Linkedin-logo" src="LNK.jpg"
+          /></a>
+        </section>
+        <section id="Info">
+          <i><h2>Biography</h2></i>
+          <hr />
+          <p>
+            I was born in Armenia, in a city Yerevan. I graduated from secondary
+            school there. Since childhood I was fascinated by computers and
+            found this field interesting. After finishing secondary school it so
+            happened that I moved to Germany. When I came to Germany after a few
+            integration courses i started to look for an IT education and I
+            found Webex Technologies Educational Center, where I learned the
+            basics of Web programming (Html, Css and Javascript).After this
+            experience I was determined to become a Professional Web
+            Programmer.So i started an advanced Web-Programming course at the
+            Company Neue Fische to learn how to do it professionally and to work
+            in this field in the future.
+          </p>
+        </section>
+        <section id="cv">
+          <i><h2 class="cvtitle">CV</h2></i>
+          <hr />
+          <h3>Education & Internship</h3>
+          <p>
+            Since <span class="Date">-- 10/2022:</span
+            ><span class="tx2">
+              Web-Development Advanced Course at Educational Center</span
+            >
+            <span class="tx1"> Neue Fische in Germany</span>
+          </p>
+          <p>
+            10/2021 - 09/2022: Web-Development Basic Knowledge Course at WebEX
+
+            <span class="tx3"> Technologies Software Development Company</span>
+          </p>
+          <p>
+            08/2018 - 07/2021: Higher European Diploma in Retail Management at
+
+            <span class="tx3"> Ludwig Erhard College in Germany</span>
+          </p>
+          <p>
+            03/2017 - 04/2017: Internship as IT Systems Electronics Technician
+            at the
+            <span class="tx3">
+              Company Georg Dreckmann GmbH Co. KG in Germany</span
+            >
+          </p>
+          <p>
+            08/2016:
+            <span class="tx5"
+              >Recognition of the Secondary School Diploma in Germany</span
+            >
+          </p>
+        </section>
+      </section>
     </main>
     <footer>
       <p id="section">Number:&nbsp;&nbsp;+491788824633</p>
       <p id="section">
         Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sm877141@gmail.com
       </p>
+      <a href="#t1"><button class="bt">↑</button></a>
     </footer>
   </body>
 </html>
