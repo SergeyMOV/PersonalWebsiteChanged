@@ -10,10 +10,12 @@ html {
   height: 2350px;
   width: 100%;
   background-color: wheat;
+  transition: 2s;
 }
 .Name {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin: 0;
+  transition: 2s;
 }
 .Darkmode__Link,
 .Darkmode__Back {
@@ -44,6 +46,7 @@ html {
   background-color: cornflowerblue;
   position: sticky;
   top: 0px;
+  transition: 2s;
 }
 .Personal__Data {
   background-color: #1f456e;
