@@ -7,12 +7,13 @@ const myName = document.querySelector(".Name");
 myHeader.addEventListener("click", function () {
   maindiv.style.backgroundColor = "#151E3D";
   myHeader2.style.backgroundColor = "#1c2e4a";
+  myHeader2.style.backgroundImage = "none";
   myFooter.style.backgroundColor = "#1c2e4a";
   myName.style.color = "slategrey";
 });
 myLightBack.addEventListener("click", function () {
   maindiv.style.backgroundColor = "wheat";
-  myHeader2.style.backgroundColor = "cornflowerblue";
+  myHeader2.style.backgroundImage = "url(Coding.gif)";
   myFooter.style.backgroundColor = "cornflowerblue";
   myName.style.color = "black";
 });
